@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header {
+    height: 750px;
+    max-width: 1920px;
+    @apply mx-auto relative p-20 bg-gradient-to-r from-blue-800 to-blue-700;
+}
+
+.container {
+    max-width: 1440px;
+    @apply mx-auto;
+}
+
+.wave {
+    @apply absolute mx-auto bottom-0 w-full;
+    max-width: 1920px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    @apply flex items-center bg-white bg-opacity-10 px-5 py-2 text-white rounded-md border border-white border-opacity-75;
+}
+
+.button-outline {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    @apply flex items-center px-5 py-2 text-white rounded-md border border-white border-opacity-75;
+}
