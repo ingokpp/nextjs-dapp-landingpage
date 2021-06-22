@@ -2,19 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background-color: #1f2937;
-}
-
 .button {
     background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.17);
     backdrop-filter: blur(0.5px);
     -webkit-backdrop-filter: blur(0.5px);
     @apply flex items-center px-5 py-2 text-white rounded-md border border-white border-opacity-20 transition hover:border-opacity-100 hover:bg-opacity-50;
 }
 
 .button-outline {
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.17);
     @apply flex items-center px-5 py-2 text-white rounded-md border border-white border-opacity-20 transition hover:border-opacity-100;
 }

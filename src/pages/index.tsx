@@ -15,6 +15,8 @@ export default function Home() {
             </Head>
 
             <Header></Header>
+
+            <div className="bg-blue-200 min-h-screen">...</div>
         </div>
     );
 }

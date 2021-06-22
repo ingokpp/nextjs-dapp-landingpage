@@ -28,7 +28,7 @@ const NavigationBar = () => (
                                 <Image src={logo} alt="" />
                             </a>
                             <div className="-mr-2 flex items-center md:hidden">
-                                <Popover.Button className="bg-blue-800 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-blue-900 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
+                                <Popover.Button className="bg-blue-700 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-blue-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
                                     <span className="sr-only">
                                         Open main menu
                                     </span>
@@ -112,7 +112,7 @@ const NavigationBar = () => (
 
 const Header = () => {
     return (
-        <div className="relative bg-gradient-to-r from-gray-900 to-gray-700 overflow-hidden">
+        <div className="relative bg-gradient-to-r from-blue-800 to-blue-600 overflow-hidden">
             <div
                 className="hidden lg:block absolute inset-0 opacity-10"
                 aria-hidden="true"
@@ -184,14 +184,16 @@ const Header = () => {
             </div>
             <div className="relative pt-6">
                 <NavigationBar />
-                <main className="relative max-w-7xl mx-auto px-4 pt-14 pb-14 space-y-5 mb-16">
-                    <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-blue-200 sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl z-0">
-                        <span className="block">Build awesome</span>{" "}
+                <main className="relative max-w-7xl mx-auto px-4 pt-7 pb7 sm:pt-14 sm:pb-14 space-y-5 mb-16">
+                    <h1 className="mt-4 text-4xl tracking-tight font-extrabold sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl z-0">
+                        <span className="block text-blue-200">
+                            Build awesome
+                        </span>{" "}
                         <span className="text-white block">
                             Blockchain dApps.
                         </span>
                     </h1>
-                    <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl md:w-3/4 lg:w-2/4">
+                    <p className="text-base text-gray-200 sm:text-xl lg:text-lg xl:text-xl md:w-3/4 lg:w-2/4">
                         Truffle and React combined with everything you need so
                         you can start building decentralized apps.
                     </p>
@@ -222,10 +224,15 @@ const Header = () => {
     );
 };
 const HeaderWave = () => (
-    <svg viewBox="0 0 1440 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg
+        className="text-blue-200"
+        viewBox="0 0 1440 91"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+    >
         <path
             d="M0 90.9999V50.9999C114.746 26.6554 229.493 2.3109 329 0.999893C428.507 -0.311112 512.775 21.4114 595 31.9999C677.225 42.5884 757.407 42.043 855 31.9999C952.593 21.9568 1067.6 2.41616 1168 3.99989C1268.4 5.58362 1354.2 28.2918 1440 50.9999V90.9999H0Z"
-            fill="#1F2937"
+            fill="currentColor"
         />
     </svg>
 );
