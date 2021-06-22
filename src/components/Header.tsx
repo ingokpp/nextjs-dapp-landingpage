@@ -112,7 +112,7 @@ const NavigationBar = () => (
 
 const Header = () => {
     return (
-        <div className="relative bg-gradient-to-r from-blue-800 to-blue-600 overflow-hidden">
+        <div className="relative bg-gradient-to-b from-gray-800 to-gray-600 overflow-hidden">
             <div
                 className="hidden lg:block absolute inset-0 opacity-10"
                 aria-hidden="true"
@@ -225,7 +225,7 @@ const Header = () => {
 };
 const HeaderWave = () => (
     <svg
-        className="text-contrast"
+        className="text-gray-900"
         viewBox="0 0 1440 91"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

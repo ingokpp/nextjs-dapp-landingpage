@@ -20,3 +20,41 @@
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(0.5px);
 }
+
+.glow {
+    position: relative;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    z-index: 2;
+}
+.glow:after {
+    opacity: 0.4;
+    position: absolute;
+    content: "";
+    top: 1vw;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-filter: blur(5vw);
+    -moz-filter: blur(5vw);
+    -ms-filter: blur(5vw);
+    filter: blur(5vw);
+    background: linear-gradient(270deg, #1e40af, #0fffc1);
+    background-size: 200% 200%;
+    animation: animateGlow 20s ease infinite;
+}
+
+@keyframes animateGlow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
