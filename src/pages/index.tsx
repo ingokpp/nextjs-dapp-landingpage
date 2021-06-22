@@ -1,4 +1,5 @@
 import Head from "next/head";
+import AboutSection from "../components/About";
 import Header from "../components/Header";
 
 export default function Home() {
@@ -14,9 +15,8 @@ export default function Home() {
                 <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
             </Head>
 
-            <Header></Header>
-
-            <div className="bg-blue-200 min-h-screen">...</div>
+            <Header />
+            <AboutSection />
         </div>
     );
 }
