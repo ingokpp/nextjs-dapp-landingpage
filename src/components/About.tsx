@@ -1,13 +1,13 @@
 const AboutSection = () => {
     return (
-        <section className="bg-contrast pb-10">
-            <div className="sm:grid sm:grid-cols-2 sm:gap-4 relative max-w-7xl mx-auto px-4">
+        <section className="bg-gray-200 pb-20 sm:pt-5">
+            <div className="sm:grid sm:grid-cols-2 sm:gap-5 relative max-w-7xl mx-auto px-4">
                 <div>
-                    <span className="font-bold text-white text-sm block mb-3 pt-4 sm:pt-0">
+                    <span className="font-bold text-gray-800 text-sm block mb-3 pt-4 sm:pt-0">
                         &mdash; FRAMEWORKS
                     </span>
-                    <div className="sm:flex sm:space-x-4 space-y-4 sm:space-y-0">
-                        <div className="relative glass flex-1 rounded-lg border border-opacity-70 px-4 py-4 text-white">
+                    <div className="sm:flex sm:space-x-5 space-y-4 sm:space-y-0">
+                        <div className="relative bg-gradient-to-r from-gray-600 to-gray-500 flex-1 rounded-lg border border-opacity-50 px-4 py-4 text-white">
                             <span className="font-medium text-lg">Truffle</span>
                             <p className="mt-5 text-sm text-gray-300">
                                 Lorem ipsum dolor sit amet consetetur sadipscing
@@ -20,7 +20,7 @@ const AboutSection = () => {
                             </p>
                             <TruffleLogo />
                         </div>
-                        <div className="relative glass flex-1 rounded-lg border border-opacity-70 px-4 py-4 text-white">
+                        <div className="relative bg-gradient-to-r from-gray-600 to-gray-500 flex-1 rounded-lg border border-opacity-50 px-4 py-4 text-white">
                             <span className="font-medium text-lg">React</span>
                             <p className="mt-5 text-sm text-gray-300">
                                 Lorem ipsum dolor sit amet consetetur sadipscing
@@ -37,11 +37,11 @@ const AboutSection = () => {
                 </div>
 
                 <div>
-                    <span className="font-bold text-white text-sm block mb-3 mt-4 sm:mt-0">
+                    <span className="font-bold text-gray-800 text-sm block mb-3 mt-4 sm:mt-0">
                         &mdash; UNDER THE HOOD
                     </span>
-                    <div className="sm:flex sm:space-x-4 space-y-4 sm:space-y-0">
-                        <div className="relative glass flex-1 rounded-lg border border-opacity-70 px-4 py-4 text-white">
+                    <div className="sm:flex sm:space-x-5 space-y-4 sm:space-y-0">
+                        <div className="relative bg-gradient-to-r from-gray-600 to-gray-500 flex-1 rounded-lg border border-opacity-50 px-4 py-4 text-white">
                             <span className="font-medium text-lg">
                                 Solidity
                             </span>
@@ -56,7 +56,7 @@ const AboutSection = () => {
                             </p>
                             <SolidityLogo />
                         </div>
-                        <div className="relative glass flex-1 rounded-lg border border-opacity-70 px-4 py-4 text-white">
+                        <div className="relative bg-gradient-to-r from-gray-600 to-gray-500 flex-1 rounded-lg border border-opacity-50 px-4 py-4 text-white">
                             <span className="font-medium text-lg">
                                 Typescript
                             </span>

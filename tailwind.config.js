@@ -15,6 +15,7 @@ module.exports = {
             },
             colors: {
                 contrast: "#335BCF",
+                gray: colors.blueGray,
             },
         },
     },
