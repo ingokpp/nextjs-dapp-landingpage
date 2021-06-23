@@ -1,7 +1,55 @@
+/* eslint-disable @next/next/no-img-element */
+import {
+    CloudUploadIcon,
+    CogIcon,
+    LockClosedIcon,
+    RefreshIcon,
+    ServerIcon,
+    ShieldCheckIcon,
+} from "@heroicons/react/outline";
 import Head from "next/head";
 import AboutSection from "../components/About";
 import GetStarted from "../components/GetStarted";
 import Header from "../components/Header";
+
+const features = [
+    {
+        name: "Push to Deploy",
+        description:
+            "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis.",
+        icon: CloudUploadIcon,
+    },
+    {
+        name: "SSL Certificates",
+        description:
+            "Qui aut temporibus nesciunt vitae dicta repellat sit dolores pariatur. Temporibus qui illum aut.",
+        icon: LockClosedIcon,
+    },
+    {
+        name: "Simple Queues",
+        description:
+            "Rerum quas incidunt deleniti quaerat suscipit mollitia. Amet repellendus ut odit dolores qui or lame.",
+        icon: RefreshIcon,
+    },
+    {
+        name: "Advanced Security",
+        description:
+            "Ullam laboriosam est voluptatem maxime ut mollitia commodi. Et dignissimos suscipit perspiciatis.",
+        icon: ShieldCheckIcon,
+    },
+    {
+        name: "Powerful API",
+        description:
+            "Ab a facere voluptatem in quia corrupti veritatis aliquam. Veritatis labore quaerat ipsum quaerat id.",
+        icon: CogIcon,
+    },
+    {
+        name: "Database Backups",
+        description:
+            "Quia qui et est officia cupiditate qui consectetur. Ratione similique et impedit ea ipsum et.",
+        icon: ServerIcon,
+    },
+];
 
 export default function Home() {
     return (
@@ -19,6 +67,35 @@ export default function Home() {
             <Header />
             <AboutSection />
             <GetStarted />
+            <div className="bg-gray-200">
+                <div className="relative max-w-7xl mx-auto p-4">
+                    <h2 className="text-gray-900 text-2xl md:text-3xl font-medium pl-6 mb-4">
+                        Features
+                    </h2>
+                    <div className="grid grid-cols-1 gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                        {features.map((feature) => (
+                            <div key={feature.name}>
+                                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-4">
+                                    <div>
+                                        <div className="flex space-x-2 mt-8">
+                                            <feature.icon
+                                                className="h-6 w-6 text-gray-900"
+                                                aria-hidden="true"
+                                            />
+                                            <h3 className="text-lg font-medium text-gray-900 tracking-tight">
+                                                {feature.name}
+                                            </h3>
+                                        </div>
+                                        <p className="mt-5 text-base text-gray-500">
+                                            {feature.description}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
