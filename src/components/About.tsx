@@ -1,6 +1,6 @@
 const AboutSection = () => {
     return (
-        <section className="bg-gray-900 pb-20 sm:pt-5">
+        <section className="bg-gray-900 pb-32 sm:pt-5">
             <div className="sm:grid sm:grid-cols-2 sm:gap-5 relative max-w-7xl mx-auto px-4">
                 <div>
                     <span className="font-bold text-white text-sm block mb-3 pt-4 sm:pt-0 text-center sm:text-left">
