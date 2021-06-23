@@ -1,9 +1,10 @@
-import { CheckIcon } from "@heroicons/react/solid";
+import { Disclosure } from "@headlessui/react";
+import { ChevronUpIcon } from "@heroicons/react/solid";
 
 const checkpoints = [
-    "Clone the ‘Modern dApp Starterkit’ repository.",
-    "Set up and start a local one click Etherum Blockchain using Ganache.",
-    "Install all project dependencies using npm or yarn.",
+    "1. Clone the ‘Modern dApp Starterkit’ repository.",
+    "2. Set up and start a local one click Etherum Blockchain using Ganache.",
+    "3. Install all project dependencies using npm or yarn.",
 ];
 
 const GetStarted = () => {
@@ -25,7 +26,7 @@ const GetStarted = () => {
                         Follow these simple steps to get the project up and
                         running on your device:
                     </strong>
-                    <hr />
+                    <hr className="mb-4" />
                     {checkpoints.map((checkpoint, index) => (
                         <CheckPoint key={index} text={checkpoint} />
                     ))}
@@ -42,12 +43,23 @@ interface CheckPointProps {
 const CheckPoint = (props: CheckPointProps) => {
     const { text } = props;
     return (
-        <div className="flex items-center space-x-2 mt-3">
-            <div className="p-1 bg-blue-200 rounded-lg">
-                <CheckIcon className="w-4 h-4 text-blue-600" />
-            </div>
-            <span className="text-gray-500 text-sm">{text}</span>
-        </div>
+        <Disclosure as="div" className="mt-2">
+            {({ open }) => (
+                <>
+                    <Disclosure.Button className="transition flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 focus:outline-none focus-visible:ring focus-visible:ring-blue-500 focus-visible:ring-opacity-75">
+                        <span>{text}</span>
+                        <ChevronUpIcon
+                            className={`${
+                                open ? "transform rotate-180" : ""
+                            } w-5 h-5 text-blue-500`}
+                        />
+                    </Disclosure.Button>
+                    <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                        No.
+                    </Disclosure.Panel>
+                </>
+            )}
+        </Disclosure>
     );
 };
 
