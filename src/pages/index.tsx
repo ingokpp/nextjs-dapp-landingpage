@@ -75,7 +75,7 @@ export default function Home() {
                     <div className="grid grid-cols-1 gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
                         {features.map((feature) => (
                             <div key={feature.name}>
-                                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-4">
+                                <div className="flow-root bg-gray-50 shadowm-sm rounded-lg px-6 pb-4">
                                     <div>
                                         <div className="flex space-x-2 mt-8">
                                             <feature.icon

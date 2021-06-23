@@ -11,7 +11,7 @@ const GetStarted = () => {
     return (
         <section className="bg-gray-200 block w-full">
             <div className="relative max-w-7xl mx-auto px-4">
-                <main className="bg-white shadow-md p-6 py-10 rounded-xl -translate-y-16">
+                <main className="bg-white shadow-sm p-6 py-10 rounded-xl -translate-y-16">
                     <h2 className="text-gray-900 text-2xl md:text-3xl font-medium">
                         Get Started
                     </h2>
