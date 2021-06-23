@@ -51,7 +51,7 @@ const CheckPoint = (props: CheckPointProps) => {
                         <ChevronUpIcon
                             className={`${
                                 open ? "transform rotate-180" : ""
-                            } w-5 h-5 text-blue-500`}
+                            } w-7 h-7 text-blue-500`}
                         />
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
