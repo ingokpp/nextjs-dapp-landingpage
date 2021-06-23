@@ -28,7 +28,7 @@ const NavigationBar = () => (
                                 <Image src={logo} alt="" />
                             </a>
                             <div className="-mr-2 flex items-center md:hidden">
-                                <Popover.Button className="bg-blue-700 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-blue-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
+                                <Popover.Button className="bg-gray-700 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
                                     <span className="sr-only">
                                         Open main menu
                                     </span>
