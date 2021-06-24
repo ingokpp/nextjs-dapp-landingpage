@@ -54,11 +54,11 @@ const Contribute = () => {
                         <div className="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
                             <img
                                 className="absolute inset-0 h-full w-full object-cover"
-                                src="https://images.unsplash.com/photo-1521510895919-46920266ddb3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&fp-x=0.5&fp-y=0.6&fp-z=3&width=1440&height=1440&sat=-100"
-                                alt=""
+                                src="/me4.jpg"
+                                alt="Hi, i am Ingo."
                             />
-                            <div className="absolute inset-0 bg-gray-500 mix-blend-multiply" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-gray-600 via-gray-600 opacity-90" />
+                            <div className="absolute inset-0  mix-blend-multiply" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 opacity-90" />
                             <div className="relative px-8">
                                 <h2 className="text-2xl sm:text-3xl font-medium text-white">
                                     About me
