@@ -9,7 +9,7 @@ import colorLogo from "../../public/logo_color.svg";
 const navigation = [
     { name: "Get Started", href: "#" },
     { name: "Features", href: "#" },
-    { name: "Installation", href: "#" },
+    { name: "Contribute", href: "#" },
     { name: "Ressources", href: "#" },
 ];
 

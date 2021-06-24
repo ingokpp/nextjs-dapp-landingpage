@@ -1,11 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import {
-    CloudUploadIcon,
-    CogIcon,
-    LockClosedIcon,
-    RefreshIcon,
-    ServerIcon,
-    ShieldCheckIcon,
+    BanIcon,
+    CodeIcon,
+    ColorSwatchIcon,
+    DocumentSearchIcon,
+    SparklesIcon,
+    TerminalIcon,
 } from "@heroicons/react/outline";
 import Head from "next/head";
 import AboutSection from "../components/About";
@@ -14,40 +14,40 @@ import Header from "../components/Header";
 
 const features = [
     {
-        name: "Push to Deploy",
+        name: "Tailwindcss",
         description:
-            "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis.",
-        icon: CloudUploadIcon,
+            "A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.",
+        icon: SparklesIcon,
     },
     {
-        name: "SSL Certificates",
+        name: "ESLint",
         description:
-            "Qui aut temporibus nesciunt vitae dicta repellat sit dolores pariatur. Temporibus qui illum aut.",
-        icon: LockClosedIcon,
+            "ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.",
+        icon: CodeIcon,
     },
     {
-        name: "Simple Queues",
+        name: "Husky",
         description:
-            "Rerum quas incidunt deleniti quaerat suscipit mollitia. Amet repellendus ut odit dolores qui or lame.",
-        icon: RefreshIcon,
+            "Husky improves your commits and more 🐶! You can use it to lint your commit messages, run tests, lint code, etc... when you commit or push. Husky supports all Git hooks.",
+        icon: DocumentSearchIcon,
     },
     {
-        name: "Advanced Security",
+        name: "Prettier",
         description:
-            "Ullam laboriosam est voluptatem maxime ut mollitia commodi. Et dignissimos suscipit perspiciatis.",
-        icon: ShieldCheckIcon,
+            "An opinionated code formatter that supports many languages and integrates with most editors.",
+        icon: ColorSwatchIcon,
     },
     {
-        name: "Powerful API",
+        name: "Commitizen",
         description:
-            "Ab a facere voluptatem in quia corrupti veritatis aliquam. Veritatis labore quaerat ipsum quaerat id.",
-        icon: CogIcon,
+            "When you commit with Commitizen, you'll be prompted to fill out any required commit fields at commit time.",
+        icon: TerminalIcon,
     },
     {
-        name: "Database Backups",
+        name: "Lint-staged",
         description:
-            "Quia qui et est officia cupiditate qui consectetur. Ratione similique et impedit ea ipsum et.",
-        icon: ServerIcon,
+            "Automatically run configurable linters against staged git files and don't let 💩 slip into your code base.",
+        icon: BanIcon,
     },
 ];
 
