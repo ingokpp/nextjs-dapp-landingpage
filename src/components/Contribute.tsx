@@ -54,7 +54,7 @@ const Contribute = () => {
                         <div className="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
                             <img
                                 className="absolute inset-0 h-full w-full object-cover"
-                                src="/me4.jpg"
+                                src="/wow.jpg"
                                 alt="Hi, i am Ingo."
                             />
                             <div className="absolute inset-0  mix-blend-multiply" />
