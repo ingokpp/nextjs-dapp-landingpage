@@ -49,17 +49,4 @@ html {
     filter: blur(6vw);
     background: linear-gradient(90deg, #0465d3, #20fcfc);
     background-size: 120% 120%;
-    animation: animateGlow 15s ease infinite;
-}
-
-@keyframes animateGlow {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
 }
