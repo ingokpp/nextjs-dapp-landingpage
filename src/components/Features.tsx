@@ -4,7 +4,7 @@ import {
     ColorSwatchIcon,
     DocumentSearchIcon,
     SparklesIcon,
-    TerminalIcon,
+    TerminalIcon
 } from "@heroicons/react/outline";
 
 const features = [
@@ -47,7 +47,7 @@ const features = [
 ];
 
 const Features = () => (
-    <div className="bg-gray-200 pb-20">
+    <div id="Features" className="bg-gray-200 pb-20">
         <div className="relative max-w-7xl mx-auto p-4">
             <h2 className="text-gray-900 text-2xl md:text-3xl font-medium pl-6 mb-4">
                 Features

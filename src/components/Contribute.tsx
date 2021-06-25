@@ -1,14 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-const stats = [
-    { label: "Founded", value: "2021" },
-    { label: "Employees", value: "5" },
-    { label: "Beta Users", value: "521" },
-    { label: "Raised", value: "$25M" },
-];
-
 const Contribute = () => {
     return (
-        <div className="relative bg-gray-100 py-16 sm:py-24">
+        <div id="Contribute" className="relative bg-gray-100 py-16 sm:py-24">
             <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
                 <div className="relative sm:py-16 lg:py-0">
                     <div
@@ -66,11 +59,7 @@ const Contribute = () => {
                                 <blockquote className="mt-8">
                                     <div className="relative text-lg font-medium text-white md:flex-grow">
                                         <p className="relative">
-                                            Tincidunt integer commodo, cursus
-                                            etiam aliquam neque, et. Consectetur
-                                            pretium in volutpat, diam. Montes,
-                                            magna cursus nulla feugiat dignissim
-                                            id lobortis amet.
+                                            Hi 🤚, my name is Ingo. I am a passionated software developer trying to contribute helpful stuff to the blockchain community. The goal of this starterkit is to reduce the pain that comes along setting up a professional dApp-project. I love to connect with new people in the crypto space.
                                         </p>
                                     </div>
 

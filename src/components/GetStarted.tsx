@@ -12,17 +12,10 @@ const GetStarted = () => {
         <section className="bg-gray-200 block w-full">
             <div className="relative max-w-7xl mx-auto px-4">
                 <main className="bg-white shadow-sm p-6 py-10 rounded-xl -translate-y-16">
-                    <h2 className="text-gray-900 text-2xl md:text-3xl font-medium">
+                    <h2 id="GetStarted" className="text-gray-900 text-2xl md:text-3xl font-medium">
                         Get Started
                     </h2>
-                    <p className="text-gray-500 mt-5 mb-10">
-                        Lorem ipsum dolor sit amet, consetetur elitr, sed diam
-                        nonumy eirmod tempor invidunt ut labore et dolore magna
-                        aliquyam erat, sed diam voluptua invidunt ut labore et
-                        dolore magna aliquyam erat, sed diam voluptua. At vero
-                        eos et accusam et justo duo dolores et ea rebum.
-                    </p>
-                    <strong className="text-gray-500 font-medium">
+                    <strong className="text-gray-500 font-medium mt-3 block">
                         Follow these simple steps to get the project up and
                         running on your device:
                     </strong>

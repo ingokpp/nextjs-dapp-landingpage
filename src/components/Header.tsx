@@ -7,10 +7,9 @@ import logo from "../../public/logo.svg";
 import colorLogo from "../../public/logo_color.svg";
 
 const navigation = [
-    { name: "Get Started", href: "#" },
-    { name: "Features", href: "#" },
-    { name: "Contribute", href: "#" },
-    { name: "Ressources", href: "#" },
+    { name: "Get Started", href: "#GetStarted" },
+    { name: "Features", href: "#Features" },
+    { name: "Contribute", href: "#Contribute" },
 ];
 
 const NavigationBar = () => (
@@ -97,7 +96,7 @@ const NavigationBar = () => (
                                 ))}
                             </div>
                             <a
-                                href="#"
+                                href="https://github.com/ingokpp/modern-dapp-starterkit"
                                 className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
                             >
                                 View on GitHub
@@ -194,15 +193,14 @@ const Header = () => {
                         </span>
                     </h1>
                     <p className="text-base text-gray-200 sm:text-xl lg:text-lg xl:text-xl md:w-3/4 lg:w-2/4">
-                        Truffle and React combined with everything you need so
-                        you can start building decentralized apps.
+                        Truffle and React combined with everything you need to start building decentralized apps.
                     </p>
                     <div className="flex items-center space-x-2">
-                        <a className="button" href="#" role="button">
+                        <a className="button" href="#GetStarted" role="button">
                             <AcademicCapIcon className="w-5 h-5 mr-1" />
                             Get Started
                         </a>
-                        <a className="button-outline" href="#" role="button">
+                        <a className="button-outline" href="https://github.com/ingokpp/modern-dapp-starterkit" target="_blank" rel="noreferrer" role="button">
                             <svg
                                 className="h-5 w-5 mr-1"
                                 viewBox="0 0 15 15"

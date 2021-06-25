@@ -13,13 +13,10 @@ const AboutSection = () => {
                                 Truffle
                             </span>
                             <p className="mt-4 text-sm text-gray-300">
-                                Lorem ipsum dolor sit amet consetetur sadipscing
-                                elitr, sed diam nonumy eirmod tempor invidunt ut
-                                labore et dolore magna aliquyam.
+                                Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
                             </p>
                             <p className="mt-3 text-sm text-gray-300">
-                                consetetur sadipscing elitr, sed nonumy eirmod
-                                tempor invidunt ut labore et dolore magn
+                                Write simple, manageable deployment scripts that acknowledge your application will change over time.
                             </p>
                         </div>
                         <div className="relative bg-white shadow-sm flex-1 rounded-xl bg-opacity-10 border border-opacity-50 px-4 py-4 text-white glow">
@@ -27,13 +24,10 @@ const AboutSection = () => {
                                 React
                             </span>
                             <p className="mt-4 text-sm text-gray-300">
-                                Lorem ipsum dolor sit amet consetetur sadipscing
-                                elitr, sed diam nonumy eirmod tempor invidunt ut
-                                labore et dolore magna aliquyam.
+                                React is a JavaScript library for building user interfaces.
                             </p>
                             <p className="mt-3 text-sm text-gray-300">
-                                consetetur sadipscing elitr, sed nonumy eirmod
-                                tempor invidunt ut labore et dolore magn
+                                Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
                             </p>
                         </div>
                     </div>
@@ -50,13 +44,7 @@ const AboutSection = () => {
                                 Solidity
                             </span>
                             <p className="mt-4 text-sm text-gray-300">
-                                Lorem ipsum dolor sit amet consetetur sadipscing
-                                elitr, sed diam nonumy eirmod tempor invidunt ut
-                                labore et dolore magna aliquyam.
-                            </p>
-                            <p className="mt-3 text-sm text-gray-300">
-                                consetetur sadipscing elitr, sed nonumy eirmod
-                                tempor invidunt ut labore et dolore magn
+                                Solidity is an object-oriented, high-level language for implementing smart contracts. Smart contracts are programs which govern the behaviour of accounts within the Ethereum state. With it you can create contracts for uses such as voting and crowdfunding.
                             </p>
                         </div>
                         <div className="relative bg-white shadow-sm flex-1 rounded-xl bg-opacity-10 border border-opacity-50 px-4 py-4 text-white glow">
@@ -64,13 +52,10 @@ const AboutSection = () => {
                                 Typescript
                             </span>
                             <p className="mt-4 text-sm text-gray-300">
-                                Lorem ipsum dolor sit amet consetetur sadipscing
-                                elitr, sed diam nonumy eirmod tempor invidunt ut
-                                labore et dolore magna aliquyam.
+                                Typed JavaScript at Any Scale.<br/>By understanding JavaScript, TypeScript saves you time catching errors and providing fixes before you run code.
                             </p>
                             <p className="mt-3 text-sm text-gray-300">
-                                consetetur sadipscing elitr, sed nonumy eirmod
-                                tempor invidunt ut labore et dolore magn
+                                Any browser, any OS, anywhere JavaScript runs. Entirely Open Source.
                             </p>
                         </div>
                     </div>
