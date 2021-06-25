@@ -1,10 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { Popover, Transition } from "@headlessui/react";
 import { AcademicCapIcon, MenuIcon, XIcon } from "@heroicons/react/solid";
-import Image from "next/image";
 import { Fragment } from "react";
-import logo from "../../public/logo.svg";
-import colorLogo from "../../public/logo_color.svg";
 
 const navigation = [
     { name: "Get Started", href: "#GetStarted" },
@@ -24,7 +21,7 @@ const NavigationBar = () => (
                         <div className="flex items-center justify-between w-full md:w-auto">
                             <a href="#">
                                 <span className="sr-only">dApp-Starterkit</span>
-                                <Image src={logo} alt="" />
+                                <h1 className="text-2xl text-white font-extrabold italic">dApp-Starterkit</h1>
                             </a>
                             <div className="-mr-2 flex items-center md:hidden">
                                 <Popover.Button className="bg-gray-700 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
@@ -70,7 +67,7 @@ const NavigationBar = () => (
                         <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                             <div className="px-5 pt-4 flex items-center justify-between">
                                 <div>
-                                    <Image src={colorLogo} alt="" />
+                                    <h1 className="text-2xl text-gray-800 font-extrabold italic">dApp-Starterkit</h1>
                                 </div>
                                 <div className="-mr-2">
                                     <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">

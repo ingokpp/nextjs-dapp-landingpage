@@ -8,7 +8,7 @@ const Contribute = () => {
                         aria-hidden="true"
                         className="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen"
                     >
-                        <div className="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72" />
+                        <div className="absolute inset-y-0 right-1/2 w-full bg-blue-50 shadow-sm rounded-r-3xl lg:right-72" />
                         <svg
                             className="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12"
                             width={404}
@@ -82,35 +82,26 @@ const Contribute = () => {
                 <div id="Contribute" className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
                     {/* Content area */}
                     <div className="pt-12 sm:pt-16 lg:pt-20">
-                        <h2 className="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
+                        <h2 id="GetStarted" className="text-gray-900 text-2xl md:text-3xl font-medium">
                             Learn how to contribute
                         </h2>
                         <div className="mt-6 text-gray-500 space-y-6">
                             <p className="text-lg">
-                                Sagittis scelerisque nulla cursus in enim
-                                consectetur quam. Dictum urna sed consectetur
-                                neque tristique pellentesque. Blandit amet, sed
-                                aenean erat arcu morbi. Cursus faucibus nunc
-                                nisl netus morbi vel porttitor vitae ut. Amet
-                                vitae fames senectus vitae.
+                                I am very thankfull for all kind of contributions this project gets. Let's do something good for the crypto community. Feel free to develop new features, fix bugs or just commit an idea. Everybody is invited to make this staterkit better.
+                            </p>
+                            <p className="text-lg">
+                                The project should run on Windows/MacOs/Linux. If you have any trouble on your system - let me know. <br/><br/> Do the following to get started:
                             </p>
                             <p className="text-base leading-7">
-                                Sollicitudin tristique eros erat odio sed vitae,
-                                consequat turpis elementum. Lorem nibh vel, eget
-                                pretium arcu vitae. Eros eu viverra donec ut
-                                volutpat donec laoreet quam urna. Sollicitudin
-                                tristique eros erat odio sed vitae, consequat
-                                turpis elementum. Lorem nibh vel, eget pretium
-                                arcu vitae. Eros eu viverra donec ut volutpat
-                                donec laoreet quam urna.
+                                <ul>
+                                    <li>1. Fork the repository</li>
+                                    <li>2. Create your branch: <code className="bg-blue-50 shadow-sm p-1 rounded-lg px-2 text-sm">git checkout -b my-feature</code></li>
+                                    <li>3. Commit your changes (pls use commitizen): <code className="bg-blue-50 shadow-sm p-1 rounded-lg px-2 text-sm">git cz</code></li>
+                                    <li>4. Push to the branch: <code className="bg-blue-50 shadow-sm p-1 rounded-lg px-2 text-sm">git push origin my-feature.</code></li>
+                                </ul>
                             </p>
                             <p className="text-base leading-7">
-                                Rhoncus nisl, libero egestas diam fermentum dui.
-                                At quis tincidunt vel ultricies. Vulputate
-                                aliquet velit faucibus semper. Pellentesque in
-                                venenatis vestibulum consectetur nibh id. In id
-                                ut tempus egestas. Enim sit aliquam nec, a.
-                                Morbi enim fermentum lacus in. Viverra.
+                                After your pull request is merged, you can safely delete your branch.
                             </p>
                         </div>
                     </div>
