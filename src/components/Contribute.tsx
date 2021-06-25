@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 const Contribute = () => {
     return (
-        <div id="Contribute" className="relative bg-gray-100 py-16 sm:py-24">
+        <div className="relative bg-gray-100 py-16 sm:py-24">
             <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
                 <div className="relative sm:py-16 lg:py-0">
                     <div
@@ -77,7 +77,7 @@ const Contribute = () => {
                     </div>
                 </div>
 
-                <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
+                <div id="Contribute" className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
                     {/* Content area */}
                     <div className="pt-12 sm:pt-16 lg:pt-20">
                         <h2 className="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
