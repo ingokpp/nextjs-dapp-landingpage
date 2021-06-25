@@ -65,7 +65,9 @@ const Contribute = () => {
 
                                     <footer className="mt-4">
                                         <a
-                                            href="#"
+                                            href="https://twitter.com/IngoKpp"
+                                            target="_blank"
+                                            rel="noreferrer"
                                             className="text-base font-semibold text-blue-200"
                                         >
                                             @ingokpp
