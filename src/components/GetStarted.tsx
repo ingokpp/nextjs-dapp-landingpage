@@ -9,7 +9,7 @@ const checkpoints = [
     },
     {
         headline: "Set up and start a local one click Ethereum blockchain using Ganache.",
-        text: <span>Download and install the <a className="text-blue-700 font-medium opacity-75 hover:opacity-100 transition" href="https://www.trufflesuite.com/ganache" target="_blank" rel="noreferrer">the latest version of Ganache</a>.<br/>Start Ganache and click on the predefined Ethereum workspace. That's it ✨ Now you have your own local Ethereum blockchain up and running.</span>
+        text: <span>Download and install the <a className="text-blue-700 font-medium opacity-75 hover:opacity-100 transition" href="https://www.trufflesuite.com/ganache" target="_blank" rel="noreferrer">the latest version of Ganache</a>.<br/>Start Ganache and click on the predefined Ethereum workspace. Thats it ✨ Now you have your own local Ethereum blockchain up and running.</span>
     },
     {
         headline: "Install all project dependencies using npm or yarn.",

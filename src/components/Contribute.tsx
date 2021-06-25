@@ -87,7 +87,7 @@ const Contribute = () => {
                         </h2>
                         <div className="mt-6 text-gray-500 space-y-6">
                             <p className="text-lg">
-                                I am very thankfull for all kind of contributions this project gets. Let's do something good for the crypto community. Feel free to develop new features, fix bugs or just commit an idea. Everybody is invited to make this staterkit better.
+                                I am very thankfull for all kind of contributions this project gets. Lets do something good for the crypto community. Feel free to develop new features, fix bugs or just commit an idea. Everybody is invited to make this staterkit better.
                             </p>
                             <p className="text-lg">
                                 The project should run on Windows/MacOs/Linux. If you have any trouble on your system - let me know. <br/><br/> Do the following to get started:
